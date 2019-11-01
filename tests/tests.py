@@ -4,13 +4,13 @@
 """
 
 import unittest
-from ijpydatetime import IJDateTImeRecover
+from ijpydatetime import IJDateTimeRecover
 
 
 class TestDatetimeRecover(unittest.TestCase):
     
     def __init__(self):
-        self.dtr = IJDateTImeRecover()
+        self.dtr = IJDateTimeRecover()
 
 
     def test_numeric_date_recover(self):
