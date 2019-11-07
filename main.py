@@ -20,7 +20,6 @@ def main():
 
     """))
 
-    
     print("\n\n Numeric Date:  {} ".format(
         dtr_obj.numeric_date_recover()
     ))
@@ -31,11 +30,16 @@ def main():
         dtr_obj.numeric_date_time_recover())
     )
     
+    print('\n\n')
+    print(60*'*')
+    print('\n')
+
     dts_obj.numeric_date_show()
     dts_obj.string_date_show()
     dts_obj.numeric_date_time_show()
 
     print('\n\n\n')
+
 
 
 if __name__ == '__main__':
@@ -48,9 +52,10 @@ if __name__ == '__main__':
         try:
             time.sleep(minutes * 60)
         except KeyboardInterrupt as kbi:
-            print('\n Programm interrupted by user \n\n {}'.format(kbi.__class__))
+            print('\n Programm interrupted by user \n ')
+            print('{}'.format(kbi.__class__))
             print('\n Execution gonna be quited... \n\n\n')
-            time.sleep(10)
+            time.sleep(6)
             exit(0)
         finally:
             pass
