@@ -20,7 +20,7 @@ def main():
 
     """))
 
-    """
+    
     print("\n\n Numeric Date:  {} ".format(
         dtr_obj.numeric_date_recover()
     ))
@@ -30,9 +30,7 @@ def main():
     print('\n\n Numeric date and time: {}'.format(
         dtr_obj.numeric_date_time_recover())
     )
-    """
-    # ------------------ show -----------------------
-
+    
     dts_obj.numeric_date_show()
     dts_obj.string_date_show()
     dts_obj.numeric_date_time_show()
